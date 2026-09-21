@@ -1,4 +1,4 @@
-export const SITE_NAME = "BTG PACTUAL LTD";
+export const SITE_NAME = "BTG PACTUAL";
 export const ADMIN_EMAIL = "support@btgpactual.com";
 export const ADMIN_WHATSAPP = "#";
 export const ADMIN_TELEGRAM = "https://t.me/";
