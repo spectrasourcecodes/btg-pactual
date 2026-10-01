@@ -63,9 +63,9 @@ export const CURRENCY_SYMBOLS = {
 
 // ✅ Safe lookup — never returns undefined
 export const getCurrencySymbol = (currencyCode) => {
-  if (!currencyCode) return '$';
+  if (!currencyCode) return 'R$';
   const code = String(currencyCode).trim().toUpperCase();
-  return CURRENCY_SYMBOLS[code] || '$';
+  return CURRENCY_SYMBOLS[code] || 'R$';
 };
 
 export const getSupportedCurrencies = () => {
